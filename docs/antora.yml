@@ -1,0 +1,5 @@
+name: dev_docs
+version: ~
+title: SWE IG Dev Docs
+nav:
+- modules/ROOT/nav.adoc

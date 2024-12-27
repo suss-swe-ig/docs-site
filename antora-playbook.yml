@@ -1,9 +1,14 @@
 site:
   title: SWE IG Dev Docs
-  start_page: sussmods::index.adoc
+  start_page: dev_docs::index.adoc
 content:
   sources:
+  - url: .
+    start_path: docs
   - url: https://github.com/suss-swe-ig/sussmods
+    start_path: docs
+    branches: main
+  - url: https://github.com/suss-swe-ig/isg-parse-to-pdf
     start_path: docs
     branches: main
 ui:
@@ -11,10 +16,12 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files:
-  - path: ui.yml
-    contents: |
-      static_files:
-      - .nojekyll
-  - path: .nojekyll
+    - path: partials/header-content.hbs
+      contents: ./supplemental-ui/partials/header-content.hbs
+    - path: ui.yml
+      contents: |
+        static_files:
+        - .nojekyll
+    - path: .nojekyll
 runtime:
   fetch: true
