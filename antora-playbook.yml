@@ -11,6 +11,9 @@ content:
   - url: https://github.com/suss-swe-ig/isg-parse-to-pdf
     start_path: docs
     branches: main
+  - url: https://github.com/suss-swe-ig/suss-telegram-groups
+    start_path: docs
+    branches: main
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable

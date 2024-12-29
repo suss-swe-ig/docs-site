@@ -2,5 +2,6 @@
 
 You are at SWE IG Dev Docs.
 
+* xref:suss-telegram-groups:ROOT:index.adoc[SUSS Telegram Groups Bot]
 * xref:sussmods:ROOT:index.adoc[SUSSMods]
-* xref:isg_to_pdf:ROOT:index.adoc[ISG to PDF]
+* xref:isg-to-pdf:ROOT:index.adoc[iStudyGuide to PDF]
