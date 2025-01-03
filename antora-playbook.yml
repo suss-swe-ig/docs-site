@@ -8,7 +8,7 @@ content:
   - url: https://github.com/suss-swe-ig/sussmods
     start_path: docs
     branches: main
-  - url: https://github.com/suss-swe-ig/isg-parse-to-pdf
+  - url: https://github.com/suss-swe-ig/isg-to-pdf
     start_path: docs
     branches: main
   - url: https://github.com/suss-swe-ig/suss-telegram-groups
